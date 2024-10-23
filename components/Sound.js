@@ -66,7 +66,7 @@ const Sound = () => {
         <div className='fixed top-5 right-2.5 xs:right-4 z-50 group'>
             {showModal && <Modal onClose={() => setShowModal(false)} toggle={toggle} />}
             <audio ref={audioRef} loop>
-                <source src={"/audio/Leaf-Zhi.mp3"} type="audio/mpeg" />
+                <source src={"/Leaf-Zhi.mp3"} type="audio/mpeg" />
                 Your browser does not support the audio element.
             </audio>
             <motion.button
